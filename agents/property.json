@@ -26,11 +26,6 @@
                     "app": "localhost",
                     "extension": "azure_tts",
                     "extension_group": "tts"
-                  },
-                  {
-                    "app": "localhost",
-                    "extension": "message_collector",
-                    "extension_group": "transcriber"
                   }
                 ],
                 "name": "text_data"
@@ -133,6 +128,11 @@
                     "app": "localhost",
                     "extension": "interrupt_detector",
                     "extension_group": "default"
+                  },
+                  {
+                    "app": "localhost",
+                    "extension": "message_collector",
+                    "extension_group": "transcriber"
                   }
                 ],
                 "name": "text_data"
@@ -423,30 +423,6 @@
             "extension_group": "transcriber",
             "name": "message_collector",
             "type": "extension"
-          },
-          {
-            "addon": "default_extension_group",
-            "app": "localhost",
-            "name": "default",
-            "type": "extension_group"
-          },
-          {
-            "addon": "default_extension_group",
-            "app": "localhost",
-            "name": "chatgpt",
-            "type": "extension_group"
-          },
-          {
-            "addon": "default_extension_group",
-            "app": "localhost",
-            "name": "tts",
-            "type": "extension_group"
-          },
-          {
-            "addon": "default_extension_group",
-            "app": "localhost",
-            "name": "transcriber",
-            "type": "extension_group"
           }
         ]
       },
@@ -664,30 +640,6 @@
             "extension_group": "transcriber",
             "name": "message_collector",
             "type": "extension"
-          },
-          {
-            "addon": "default_extension_group",
-            "app": "localhost",
-            "name": "default",
-            "type": "extension_group"
-          },
-          {
-            "addon": "default_extension_group",
-            "app": "localhost",
-            "name": "chatgpt",
-            "type": "extension_group"
-          },
-          {
-            "addon": "default_extension_group",
-            "app": "localhost",
-            "name": "tts",
-            "type": "extension_group"
-          },
-          {
-            "addon": "default_extension_group",
-            "app": "localhost",
-            "name": "transcriber",
-            "type": "extension_group"
           }
         ]
       },
@@ -1502,30 +1454,6 @@
             "extension_group": "default",
             "name": "interrupt_detector",
             "type": "extension"
-          },
-          {
-            "addon": "default_extension_group",
-            "app": "localhost",
-            "name": "default",
-            "type": "extension_group"
-          },
-          {
-            "addon": "default_extension_group",
-            "app": "localhost",
-            "name": "llm",
-            "type": "extension_group"
-          },
-          {
-            "addon": "default_extension_group",
-            "app": "localhost",
-            "name": "tts",
-            "type": "extension_group"
-          },
-          {
-            "addon": "default_extension_group",
-            "app": "localhost",
-            "name": "chat_transcriber",
-            "type": "extension_group"
           }
         ]
       },
@@ -2182,30 +2110,6 @@
             "extension_group": "transcriber",
             "name": "message_collector",
             "type": "extension"
-          },
-          {
-            "addon": "default_extension_group",
-            "app": "localhost",
-            "name": "default",
-            "type": "extension_group"
-          },
-          {
-            "addon": "default_extension_group",
-            "app": "localhost",
-            "name": "chatgpt",
-            "type": "extension_group"
-          },
-          {
-            "addon": "default_extension_group",
-            "app": "localhost",
-            "name": "tts",
-            "type": "extension_group"
-          },
-          {
-            "addon": "default_extension_group",
-            "app": "localhost",
-            "name": "transcriber",
-            "type": "extension_group"
           }
         ]
       },
