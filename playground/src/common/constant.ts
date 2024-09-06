@@ -41,6 +41,10 @@ export const GRAPH_OPTIONS: GraphOptionItem[] = [
     value: "va.openai.cozy"
   },
   {
+    label: "Voice Agent with Vision - OpenAI LLM + Cartesia TTS",
+    value: "camera.va.openai.cartesia"
+  },
+  {
     label: "Voice Agent - OpenAI LLM + Cartesia TTS",
     value: "va.openai.cartesia"
   },
