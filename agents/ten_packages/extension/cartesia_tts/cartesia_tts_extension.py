@@ -65,7 +65,7 @@ class CartesiaTTSExtension(Extension):
         self.stopped = False
         self.thread = None
         self.callback = None
-        self.skip_patterns = [r'\bssml_\w+\b', 'agent']  # List of patterns to skip
+        self.skip_patterns = [r'\bssml_\w+\b']  # List of patterns to skip
         self.ten = None
 
     def on_start(self, ten: TenEnv) -> None:
@@ -180,7 +180,6 @@ class CartesiaTTSExtension(Extension):
         cmd_name = cmd.get_name()
 
         if cmd_name == "flush":
-            logger.info(f"FLUSHING")
             self.outdate_ts = datetime.now()
             self.flush()
             cmd_result = CmdResult.create(StatusCode.OK)
@@ -194,6 +193,5 @@ class CartesiaTTSExtension(Extension):
 
     def flush(self):
         # Clear the queue
-        logger.info(f"FLUSHING 2")
         while not self.queue.empty():
             self.queue.get()
